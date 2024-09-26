@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+.container{
+display: flex;
+justify-content: space-between;
+background-color: white;
+padding: 25px;
+align-items: center;
+
+
+
+}
+.fyraknapp a{
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;    
+}
+.iconn{
+     width: 32px;
+     height: auto;
+    position: relative;
+   
+    
+}
+
+
+
+    .icon{
+        width: 32px;
+        height: auto;
+        
+
+    }
+    .ett{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 20px;   
+    }
+
+  
+    .logain{
+      color: black;
+      padding: 10px;
+      font-family:Arial, Helvetica, sans-serif ;
+      font-style: helvetica;
+      
+    }
+    .fyraknapp a:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .logain:hover{
+       background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+
+    }
+
+    .volvo{
+        width: 150px;
+        height:auto;
+       
+    }
+
+    /* Bil Bilden */
+
+    .Bild-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        right: 60px;
+        top: 400px;
+        text-align: center;
+        margin-bottom: 35%;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .bil {
+        width: 100%;
+        filter: brightness(0.8);
+        position: absolute;
+        z-index: 1;
+    }
+    
+    
+    .Bild-text button {
+        padding: 15px 40px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        margin-top: 20px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 1px 2px 0;
+    }
+    
+    .Bild-text h1 {
+        font-size: 30pt;
+        padding: 20px 0;
+        letter-spacing: 1px;
+    }
+    
+    .fet-stil {
+        font-weight: 900;
+        font-size: 14pt;
+    }
+    
+    .Bild-text button:hover {
+        background-color: rgb(224, 224, 224);
+    }
+    
+    .pris {
+        font-size: large;
+    }
+
+    /* Mitten */
+
+    .container1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .a1 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin: 20px;
+        background-color: #f8f8f8;
+        padding: 15px;
+    }
+    
+    .a1 h2 {
+        margin: 15px 10px;
+        font-size: 18px;
+    }
+    
+    .a1 p {
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .pointer {
+        font-size: 24px;
+        position: absolute;
+        align-self: flex-end;
+    }
+    
+    .container2 {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: 50px;
+    }
+    
+    .img-text {
+        margin-top: 15px;
+    }
+    
+    .img-text h2 {
+        margin: 15px 0;
+    }
+    
+    .img-text p {
+        padding: 3px 0;
+    }
+    
+    .img-text a {
+        position: absolute;
+        margin-top: 30px;
+    }
+    
+    .volvo1 {
+        width: 650px;
+        height: 350px;
+    }
+    
+    .volvo2 {
+        width: 650px;
+        height: 350px;
+    }
